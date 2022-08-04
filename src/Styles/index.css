@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  caret-color: rgba(0, 0, 0, 0);
+}
+
+.intro,
+.aboutme,
+.projects--container,
+.contact-container {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(1, 5, 10);
+  color: white;
+}
+
+.aboutme {
+  text-align: justify;
+}
+
+.aboutParagraph {
+  margin: 3em auto;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.name {
+  position: absolute;
+  top: 500px;
+  left: 2%;
+  max-width: 90%;
+}
+
+.projects--div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  gap: 1em;
+}
+
+.projects--img {
+  height: 300px;
+  width: 400px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  padding: 0 4px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.project--title {
+  margin: 2em;
+  text-align: center;
+}
+
+.nav {
+  background-color: white;
+  padding: 1.1em;
+  display: flex;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 0;
+}
+
+.nav > ul,
+.socialbar {
+  font-size: larger;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+  color: rgb(1, 5, 10);
+}
+
+.socialbar {
+  gap: 0;
+  max-width: 64px;
+  margin: 0;
+}
+
+.nav ul li,
+.nav ul li:after,
+.nav ul li:before,
+.socialIcon:after,
+.socialIcon,
+.socialIcon:before {
+  transition: all 0.5s;
+  position: relative;
+}
+
+.nav ul li:hover,
+.socialIcon:hover {
+  color: #33b3ff;
+}
+
+.nav ul li:after {
+  position: absolute;
+  top: 0.5em;
+  bottom: 0;
+  left: 0.4em;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ". . . . . . . . .";
+  color: transparent;
+  height: 1px;
+}
+
+.socialIcon:after {
+  position: absolute;
+  top: 0em;
+  bottom: 0;
+  left: 0em;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: "______";
+  color: transparent;
+  height: 1px;
+}
+
+.nav ul li:hover:after,
+.socialIcon:hover:after {
+  width: 100%;
+  color: black;
+}
+
+.socialbar {
+  position: relative;
+  background-color: white;
+  height: 100%;
+  width: 7%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  overflow: visible;
+  z-index: 1;
+}
+
+.smallIcon {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 48px;
+  width: 48px;
+}/*# sourceMappingURL=index.css.map */
