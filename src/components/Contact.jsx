@@ -31,9 +31,9 @@ function Contact() {
   return (
     <div className="contact-container">
       <Navbar
-        href1={"/"}
-        href2={"/aboutme"}
-        href3={"/projects"}
+        href1={"/improvedPortfolio/"}
+        href2={"/improvedPortfolioaboutme"}
+        href3={"/improvedPortfolio/projects"}
         link1={"Home"}
         link2={"About Me"}
         link3={"Projects"}

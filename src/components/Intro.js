@@ -6,9 +6,9 @@ const Intro = () => {
   return (
     <div className="intro">
       <Navbar
-        href1={"/projects"}
-        href2={"/aboutme"}
-        href3={"/contact"}
+        href1={"/improvedPortfolio/projects"}
+        href2={"/improvedPortfolio/aboutme"}
+        href3={"/improvedPortfolio/contact"}
         link1={"Projects"}
         link2={"About Me"}
         link3={"Contact"}

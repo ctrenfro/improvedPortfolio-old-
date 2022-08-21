@@ -7,9 +7,9 @@ const Projects = () => {
   return (
     <section className="projects--container">
       <Navbar
-        href1={"/"}
-        href2={"/aboutme"}
-        href3={"/contact"}
+        href1={"/improvedPortfolio/"}
+        href2={"/improvedPortfolio/aboutme"}
+        href3={"/improvedPortfolio/contact"}
         link1={"Home"}
         link2={"About Me"}
         link3={"Contact Me"}

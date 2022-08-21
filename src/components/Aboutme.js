@@ -6,9 +6,9 @@ const Aboutme = () => {
   return (
     <div className="aboutme">
       <Navbar
-        href1={"/"}
-        href2={"/projects"}
-        href3={"/contact"}
+        href1={"/improvedPortfolio/"}
+        href2={"/improvedPortfolio/projects"}
+        href3={"/improvedPortfolio/contact"}
         link1={"Home"}
         link2={"Projects"}
         link3={"Contact Me"}
