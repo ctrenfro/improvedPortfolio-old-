@@ -24,21 +24,37 @@ const Projects = () => {
           src={require("../images/gp3image.png")}
           link={"https://gpt3api.herokuapp.com/"}
           alt={"gpt3 image"}
+          title="OpenAI's GPT3 AI"
+          description="The GPT3 ai will repsond to your prompts."
         />
         <ProjectComponent
           src={require("../images/ecommerce.png")}
           link={"https://ecommerce-sanity-r5ek846ij-ctrenfro.vercel.app/"}
           alt={"ecommerce site"}
+          title="Sanity Ecommerce"
+          description="Simple ecommerce site built with sanity and stripe."
         />
         <ProjectComponent
           src={require("../images/weatherApp.png")}
           link={"http://ctrenfro.github.io/WeatherApp"}
           alt="My Weather App"
+          title="3 Day Forecast"
+          description="A simple weather app"
         />
         <ProjectComponent
           src={require("../images/Picture1.jpg")}
           link={"http://ctrenfro.github.io/mernProject"}
-          alt={"Marn Project"}
+          alt={"Mern Project"}
+          title="YourPlaces"
+          description="Create an account and post places you have visited."
+        />
+        <ProjectComponent
+          src={require("../images/calculator.png")}
+          link={"https://ctrenfro.github.io/calculator/"}
+          alt={"calculator"}
+          title="Calculator"
+          description="Simple calculator app"
+          className="calculator"
         />
       </div>
     </section>

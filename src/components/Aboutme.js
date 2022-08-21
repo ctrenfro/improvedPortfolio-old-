@@ -17,14 +17,23 @@ const Aboutme = () => {
         linkedin={require("../images/icons8-linkedin-2-32.png")}
         github={require("../images/GitHub_Logo.png")}
       />
+      <h1 className="aboutme--title">About Me</h1>
       <p class="aboutParagraph">
-        I am a new programmer that has recently receieved an Associate's degree
-        in Software Development. Since I graduated I have been supplementing my
-        education with online courses to focus on front end and full stack
-        development, particulary using React. I come from a background as a
+        I am a new programmer with an Associate's degree in Software
+        Development. I have set my focus on React I come from a background as a
         hiring and shift manager, but wanted to find a career that better
         aligned with my interests.
       </p>
+
+      <div className="tags">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>NodeJS</li>
+        </ul>
+      </div>
     </div>
   );
 };

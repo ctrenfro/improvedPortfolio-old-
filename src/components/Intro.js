@@ -13,6 +13,10 @@ const Intro = () => {
         link2={"About Me"}
         link3={"Contact"}
       />
+      <div>
+        <h1 className="hi">Hi,</h1>
+        <h1 className="I">I'm</h1>
+      </div>
       <div className="name">
         <h1>Christopher Renfro</h1>
         <p>Front-End Developer</p>

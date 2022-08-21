@@ -24,46 +24,29 @@ a {
   color: white;
 }
 
-.aboutme {
-  text-align: justify;
+.hi {
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 2%;
 }
 
-.aboutParagraph {
-  margin: 3em auto;
-  width: 60%;
-  vertical-align: middle;
+.I {
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  width: 80%;
+  top: 25%;
+  left: 14%;
 }
 
 .name {
   position: absolute;
-  top: 500px;
-  left: 2%;
+  top: 30%;
+  left: 25%;
   max-width: 90%;
-}
-
-.projects--div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 0 4px;
-  gap: 1em;
-}
-
-.projects--img {
-  height: 300px;
-  width: 400px;
-  -o-object-fit: fill;
-     object-fit: fill;
-  padding: 0 4px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.project--title {
-  margin: 2em;
-  text-align: center;
+  font-size: 30px;
 }
 
 .nav {
@@ -71,8 +54,7 @@ a {
   padding: 1.1em;
   display: flex;
   justify-content: center;
-  position: -webkit-sticky;
-  position: sticky;
+  position: absolute;
   width: 100%;
   top: 0;
   z-index: 0;
@@ -87,12 +69,6 @@ a {
   display: flex;
   gap: 1em;
   color: rgb(1, 5, 10);
-}
-
-.socialbar {
-  gap: 0;
-  max-width: 64px;
-  margin: 0;
 }
 
 .nav ul li,
@@ -143,17 +119,19 @@ a {
 }
 
 .socialbar {
-  position: relative;
+  position: absolute;
   background-color: white;
   height: 100%;
   width: 7%;
-  float: right;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   overflow: visible;
   z-index: 1;
+  gap: 0;
+  max-width: 64px;
+  margin: 0;
+  right: 0;
 }
 
 .smallIcon {
@@ -161,4 +139,78 @@ a {
      object-fit: fill;
   height: 48px;
   width: 48px;
+}
+
+.projectTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: medium;
+}
+
+.projectDescription {
+  font-size: small;
+  margin: 1em 0;
+}
+
+.projects--div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  gap: 1em;
+  margin-right: 4em;
+}
+
+.projects--img {
+  height: 300px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  padding: 0 4px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.project--title {
+  margin: 4em 2em 2em;
+  text-align: center;
+}
+
+.projects--img .calculator {
+  height: 300px;
+  width: auto;
+  padding: 0 4px;
+  margin-bottom: 1em;
+}
+
+.aboutme {
+  text-align: justify;
+}
+
+.aboutme--title {
+  font-family: "Rubik Dirt", cursive;
+  font-weight: 400;
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+
+.tags {
+  position: absolute;
+  display: inline-flex;
+  vertical-align: bottom;
+  bottom: 20%;
+  right: 30%;
+}
+
+.aboutParagraph {
+  position: absolute;
+  width: 50%;
+  vertical-align: middle;
+  right: 8%;
+  top: 50%;
 }/*# sourceMappingURL=index.css.map */
