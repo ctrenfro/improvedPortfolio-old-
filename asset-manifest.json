@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ctrenfro/improvedPortfolio.git/static/css/main.6a757b84.css",
-    "main.js": "/ctrenfro/improvedPortfolio.git/static/js/main.b2158354.js",
-    "static/media/weatherApp.png": "/ctrenfro/improvedPortfolio.git/static/media/weatherApp.330836d09505fedbf0ee.png",
-    "static/media/ecommerce.png": "/ctrenfro/improvedPortfolio.git/static/media/ecommerce.362926482d28abc938da.png",
-    "static/media/gp3image.png": "/ctrenfro/improvedPortfolio.git/static/media/gp3image.5aef515e457f7d2230d7.png",
-    "static/media/Picture1.jpg": "/ctrenfro/improvedPortfolio.git/static/media/Picture1.1357481580585c90be01.jpg",
-    "static/media/GitHub_Logo.png": "/ctrenfro/improvedPortfolio.git/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
-    "index.html": "/ctrenfro/improvedPortfolio.git/index.html",
-    "main.6a757b84.css.map": "/ctrenfro/improvedPortfolio.git/static/css/main.6a757b84.css.map",
-    "main.b2158354.js.map": "/ctrenfro/improvedPortfolio.git/static/js/main.b2158354.js.map"
+    "main.css": "/imporovedPortfolio/static/css/main.6a757b84.css",
+    "main.js": "/imporovedPortfolio/static/js/main.725b75fb.js",
+    "static/media/weatherApp.png": "/imporovedPortfolio/static/media/weatherApp.330836d09505fedbf0ee.png",
+    "static/media/ecommerce.png": "/imporovedPortfolio/static/media/ecommerce.362926482d28abc938da.png",
+    "static/media/gp3image.png": "/imporovedPortfolio/static/media/gp3image.5aef515e457f7d2230d7.png",
+    "static/media/Picture1.jpg": "/imporovedPortfolio/static/media/Picture1.1357481580585c90be01.jpg",
+    "static/media/GitHub_Logo.png": "/imporovedPortfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
+    "index.html": "/imporovedPortfolio/index.html",
+    "main.6a757b84.css.map": "/imporovedPortfolio/static/css/main.6a757b84.css.map",
+    "main.725b75fb.js.map": "/imporovedPortfolio/static/js/main.725b75fb.js.map"
   },
   "entrypoints": [
     "static/css/main.6a757b84.css",
-    "static/js/main.b2158354.js"
+    "static/js/main.725b75fb.js"
   ]
 }
