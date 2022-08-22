@@ -20,18 +20,19 @@ const Aboutme = () => {
       <h1 className="aboutme--title">About Me</h1>
       <p class="aboutParagraph">
         I am a new programmer with an Associate's degree in Software
-        Development. I have set my focus on React I come from a background as a
-        hiring and shift manager, but wanted to find a career that better
-        aligned with my interests.
+        Development. I have spent about a year practicing on my own mostly with
+        React, but am interested in any web development technology. I come from
+        a background as a hiring and shift manager, but wanted to find a career
+        that better aligned with my interests.
       </p>
 
       <div className="tags">
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>React</li>
-          <li>NodeJS</li>
+          <li className="tagItems">HTML</li>
+          <li className="tagItems">CSS</li>
+          <li className="tagItems">Javascript</li>
+          <li className="tagItems">React</li>
+          <li className="tagItems">NodeJS</li>
         </ul>
       </div>
     </div>

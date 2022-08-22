@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Navbar from "./Navigation/Navbar";
 import Socialbar from "./Navigation/Socialbar";
@@ -6,6 +6,7 @@ import Socialbar from "./Navigation/Socialbar";
 import "../Styles/Contacts.css";
 
 function Contact() {
+  const [showDiv, setShowDiv] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -26,6 +27,10 @@ function Contact() {
           console.log(error.text);
         }
       );
+
+    setShowDiv(true);
+    let frm = document.getElementsByName("contact-form")[0];
+    frm.reset();
   };
 
   return (
@@ -42,17 +47,39 @@ function Contact() {
         linkedin={require("../images/icons8-linkedin-2-32.png")}
         github={require("../images/GitHub_Logo.png")}
       />
-      <form class="cf" ref={form} onSubmit={sendEmail}>
-        <div class="half left cf">
-          <input type="text" placeholder="Name" name="name"></input>
-          <input type="email" name="email" placeholder="Email address"></input>
-          <input type="text" placeholder="Subject" name="subject"></input>
+
+      <form name="contact-form" className="cf" ref={form} onSubmit={sendEmail}>
+        <div className="half left cf">
+          <input type="text" placeholder="Name" name="name" id="name"></input>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address"
+            id="email"
+          ></input>
+          <input
+            type="text"
+            placeholder="Subject"
+            name="subject"
+            id="subject"
+          ></input>
         </div>
-        <div class="half right cf">
-          <textarea name="message" type="text" placeholder="Message"></textarea>
+        <div className="half right cf">
+          <textarea
+            name="message"
+            type="text"
+            placeholder="Message"
+            id="message"
+          ></textarea>
         </div>
-        <input type="submit" value="Send" id="input-submit"></input>
+        <input name="btn" type="submit" value="Send" id="input-submit"></input>
       </form>
+
+      {showDiv && (
+        <div id="toast">
+          <h2>Thank you for contacting me!</h2>
+        </div>
+      )}
     </div>
   );
 }

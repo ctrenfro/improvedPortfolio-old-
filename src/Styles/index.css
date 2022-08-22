@@ -207,6 +207,11 @@ a {
   right: 30%;
 }
 
+.tagItems {
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
 .aboutParagraph {
   position: absolute;
   width: 50%;

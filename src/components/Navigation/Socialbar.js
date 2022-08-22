@@ -9,7 +9,7 @@ const Socialbar = (props) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fa-brands fa-linkedin-in fa-2x smallIcon"></i>
+          <i className="fa-brands fa-linkedin-in fa-2x smallIcon"></i>
         </a>
       </div>
       <div className="socialIcon">
@@ -18,7 +18,7 @@ const Socialbar = (props) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fa-brands fa-github fa-2x smallIcon"></i>
+          <i className="fa-brands fa-github fa-2x smallIcon"></i>
         </a>
       </div>
     </div>
