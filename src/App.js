@@ -8,24 +8,12 @@ import Contact from "./components/Contact.jsx";
 function App() {
   return (
     <div id="app">
-      <BrowserRouter>
+      <BrowserRouter basename="/improvedPortfolio">
         <Routes>
-          <Route path="/improvedPortfolio/" exact element={<Intro />} />
-          <Route
-            path="/improvedPortfolio/aboutme"
-            exact
-            element={<Aboutme />}
-          />
-          <Route
-            path="/improvedPortfolio/projects"
-            exact
-            element={<Projects />}
-          />
-          <Route
-            path="/improvedPortfolio/contact"
-            exact
-            element={<Contact />}
-          />
+          <Route path="/" exact element={<Intro />} />
+          <Route path="aboutme" exact element={<Aboutme />} />
+          <Route path="projects" exact element={<Projects />} />
+          <Route path="contact" exact element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
