@@ -11,6 +11,7 @@ function App() {
       <BrowserRouter basename="/improvedPortfolio">
         <Routes>
           <Route exact path="/" element={<Intro />} />
+          <Route exact path="/*" element={<Intro />} />
           <Route exact path="aboutme" element={<Aboutme />} />
           <Route exact path="projects" element={<Projects />} />
           <Route exact path="contact" element={<Contact />} />
