@@ -10,10 +10,10 @@ function App() {
     <div id="app">
       <BrowserRouter basename="/improvedPortfolio">
         <Routes>
-          <Route path="/" exact element={<Intro />} />
-          <Route path="aboutme" exact element={<Aboutme />} />
-          <Route path="projects" exact element={<Projects />} />
-          <Route path="contact" exact element={<Contact />} />
+          <Route exact path="/" element={<Intro />} />
+          <Route exact path="aboutme" element={<Aboutme />} />
+          <Route exact path="projects" element={<Projects />} />
+          <Route exact path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
