@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/improvedPortfolio/static/css/main.6a757b84.css",
-    "main.js": "/improvedPortfolio/static/js/main.b650d352.js",
+    "main.css": "/improvedPortfolio/static/css/main.83beef73.css",
+    "main.js": "/improvedPortfolio/static/js/main.e6fded91.js",
     "static/media/weatherApp.png": "/improvedPortfolio/static/media/weatherApp.330836d09505fedbf0ee.png",
     "static/media/ecommerce.png": "/improvedPortfolio/static/media/ecommerce.362926482d28abc938da.png",
     "static/media/gp3image.png": "/improvedPortfolio/static/media/gp3image.5aef515e457f7d2230d7.png",
     "static/media/Picture1.jpg": "/improvedPortfolio/static/media/Picture1.1357481580585c90be01.jpg",
     "static/media/GitHub_Logo.png": "/improvedPortfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
     "index.html": "/improvedPortfolio/index.html",
-    "main.6a757b84.css.map": "/improvedPortfolio/static/css/main.6a757b84.css.map",
-    "main.b650d352.js.map": "/improvedPortfolio/static/js/main.b650d352.js.map"
+    "main.83beef73.css.map": "/improvedPortfolio/static/css/main.83beef73.css.map",
+    "main.e6fded91.js.map": "/improvedPortfolio/static/js/main.e6fded91.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a757b84.css",
-    "static/js/main.b650d352.js"
+    "static/css/main.83beef73.css",
+    "static/js/main.e6fded91.js"
   ]
 }
