@@ -6,7 +6,8 @@ form {
 }
 
 input,
-textarea {
+textarea,
+button {
   border: 0;
   outline: 0;
   padding: 1em;

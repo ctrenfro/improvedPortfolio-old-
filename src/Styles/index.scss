@@ -24,33 +24,34 @@ a {
   overflow: hidden;
   background-color: $rgba-primary-4;
   color: white;
+  top: 0;
 }
 
 /////Intro page/////////////////////////////////////////////////////
 
-.hi {
-  font-size: 100px;
-  color: white;
-  position: absolute;
-  top: 20%;
+.introduction {
+  top: 10%;
+  position: fixed;
   left: 2%;
+  font-size: 40px;
+  flex-wrap: wrap;
 }
 
 .I {
-  font-size: 100px;
-  color: white;
-  position: absolute;
-  width: 80%;
-  top: 25%;
-  left: 14%;
+  transform: translateX(20%);
 }
 
-.name {
-  position: absolute;
-  top: 30%;
+.name,
+.title {
+  position: relative;
   left: 25%;
-  max-width: 90%;
-  font-size: 30px;
+  font-size: 40px;
+  transform: translatex(20%);
+}
+
+.title {
+  margin-top: 0.5em;
+  font-size: 25px;
 }
 
 /////nav and socialbar///////////////////////////////////////////
@@ -132,9 +133,6 @@ a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  overflow: visible;
-  z-index: 1;
-  gap: 0;
   max-width: 64px;
   margin: 0;
   right: 0;
@@ -226,4 +224,63 @@ a {
   vertical-align: middle;
   right: 8%;
   top: 50%;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    position: fixed;
+  }
+  .nav ul {
+    transform: translateX(-8%);
+  }
+  .socialbar {
+    width: 12%;
+    height: 100%;
+    position: fixed;
+  }
+
+  .I {
+    transform: translateX(5%);
+  }
+  .name,
+  .title {
+    left: auto;
+    transform: translatex(10%);
+  }
+
+  .aboutParagraph {
+    position: relative;
+    transform: translateX(25%);
+    width: 70%;
+    font-weight: 800;
+  }
+
+  .tags {
+    position: relative;
+    left: 10%;
+    bottom: -55%;
+    font-weight: 800;
+  }
+
+  .projects--container {
+    overflow: auto;
+  }
+
+  .projects--div {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    overflow: scroll;
+  }
+
+  .projects--img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .projectDescription,
+  .projectTitle {
+    text-align: center;
+  }
 }

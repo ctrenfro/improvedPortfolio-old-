@@ -72,7 +72,9 @@ function Contact() {
             id="message"
           ></textarea>
         </div>
-        <input name="btn" type="submit" value="Send" id="input-submit"></input>
+        <button name="btn" type="submit" id="input-submit">
+          Send
+        </button>
       </form>
 
       {showDiv && (

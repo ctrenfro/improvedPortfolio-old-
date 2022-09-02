@@ -13,13 +13,11 @@ const Intro = () => {
         link2={"About Me"}
         link3={"Contact"}
       />
-      <div>
+      <div className="introduction">
         <h1 className="hi">Hi,</h1>
         <h1 className="I">I'm</h1>
-      </div>
-      <div className="name">
-        <h1>Christopher Renfro</h1>
-        <p>Front-End Developer</p>
+        <h1 className="name">Christopher Renfro</h1>
+        <p className="title">Front-End Developer</p>
       </div>
       <Socialbar
         linkedin={require("../images/icons8-linkedin-2-32.png")}
