@@ -16,8 +16,10 @@ const Intro = () => {
       <div className="introduction">
         <h1 className="hi">Hi,</h1>
         <h1 className="I">I'm</h1>
-        <h1 className="name">Christopher Renfro</h1>
-        <p className="title">Front-End Developer</p>
+        <div className="nameTitle">
+          <h1 className="name">Christopher Renfro</h1>
+          <p className="title">Front-End Developer</p>
+        </div>
       </div>
       <Socialbar
         linkedin={require("../images/icons8-linkedin-2-32.png")}

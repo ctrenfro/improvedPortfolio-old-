@@ -19,7 +19,6 @@ a {
 .contact-container {
   height: 100%;
   position: absolute;
-  left: 0;
   width: 100%;
   overflow: hidden;
   background-color: $rgba-primary-4;
@@ -30,28 +29,26 @@ a {
 /////Intro page/////////////////////////////////////////////////////
 
 .introduction {
-  top: 10%;
-  position: fixed;
-  left: 2%;
+  top: 30%;
+  position: relative;
+  width: 80%;
+  margin: auto;
   font-size: 40px;
-  flex-wrap: wrap;
 }
 
 .I {
-  transform: translateX(20%);
+  margin-left: 3rem;
 }
 
-.name,
-.title {
-  position: relative;
-  left: 25%;
-  font-size: 40px;
-  transform: translatex(20%);
+.nameTitle {
+  font-size: 30px;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+  margin-right: 2rem;
 }
 
 .title {
-  margin-top: 0.5em;
-  font-size: 25px;
+  padding-top: 0.2em;
 }
 
 /////nav and socialbar///////////////////////////////////////////
@@ -136,6 +133,7 @@ a {
   max-width: 64px;
   margin: 0;
   right: 0;
+  top: 0;
 }
 
 .smallIcon {
@@ -239,13 +237,15 @@ a {
     position: fixed;
   }
 
-  .I {
-    transform: translateX(5%);
+  .introduction {
+    font-size: 20px;
+    width: auto;
+    margin-left: 1rem;
   }
-  .name,
-  .title {
-    left: auto;
-    transform: translatex(10%);
+
+  .nameTitle {
+    font-size: 20px;
+    margin: 0rem 3rem;
   }
 
   .aboutParagraph {
