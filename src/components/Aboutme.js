@@ -23,7 +23,7 @@ const Aboutme = () => {
         Development. I have spent about a year practicing on my own mostly with
         React, but am interested in any web development technology. I come from
         a background as a hiring and shift manager, but wanted to find a career
-        that better aligned with my interests.
+        in technolgy to build a future in.
       </p>
 
       <div className="tags">

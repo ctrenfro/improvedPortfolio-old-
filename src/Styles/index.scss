@@ -206,13 +206,12 @@ a {
 .tags {
   position: absolute;
   display: inline-flex;
-  vertical-align: bottom;
-  bottom: 20%;
+  bottom: 15%;
   right: 30%;
+  font-size: 2rem;
 }
 
 .tagItems {
-  font-size: 2vw;
   text-transform: uppercase;
 }
 
@@ -284,3 +283,9 @@ a {
     text-align: center;
   }
 }
+
+// @media (min-width: 2000px) {
+//   .tags {
+//     overflow: hidden;
+//   }
+// }
