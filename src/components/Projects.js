@@ -56,6 +56,13 @@ const Projects = () => {
           description="Simple calculator app"
           className="calculator"
         />
+        <ProjectComponent
+          src={require("../images/caffeinecafe.png")}
+          link={"https://caffeinecafe.in/"}
+          alt={"Coffee Shop"}
+          title="CaffeineCafe"
+          description="Wordpress based site for a coffee shop and a simple store."
+        />
       </div>
     </section>
   );
