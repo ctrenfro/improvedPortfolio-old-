@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/improvedPortfolio/static/css/main.20fa92b3.css",
-    "main.js": "/improvedPortfolio/static/js/main.2cd3fda6.js",
+    "main.js": "/improvedPortfolio/static/js/main.d55f8c20.js",
     "static/media/weatherApp.png": "/improvedPortfolio/static/media/weatherApp.330836d09505fedbf0ee.png",
+    "static/media/caffeinecafe.png": "/improvedPortfolio/static/media/caffeinecafe.eef2ea3559be31b86564.png",
     "static/media/ecommerce.png": "/improvedPortfolio/static/media/ecommerce.362926482d28abc938da.png",
     "static/media/gp3image.png": "/improvedPortfolio/static/media/gp3image.5aef515e457f7d2230d7.png",
     "static/media/Picture1.jpg": "/improvedPortfolio/static/media/Picture1.1357481580585c90be01.jpg",
     "static/media/GitHub_Logo.png": "/improvedPortfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
     "index.html": "/improvedPortfolio/index.html",
     "main.20fa92b3.css.map": "/improvedPortfolio/static/css/main.20fa92b3.css.map",
-    "main.2cd3fda6.js.map": "/improvedPortfolio/static/js/main.2cd3fda6.js.map"
+    "main.d55f8c20.js.map": "/improvedPortfolio/static/js/main.d55f8c20.js.map"
   },
   "entrypoints": [
     "static/css/main.20fa92b3.css",
-    "static/js/main.2cd3fda6.js"
+    "static/js/main.d55f8c20.js"
   ]
 }
